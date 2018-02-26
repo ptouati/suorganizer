@@ -7,4 +7,3 @@ urlpatterns = [
     path(r'<year>/' r'^<month>/' r'^<slug>/', post_detail, {'parent_template': 'base.html'},
          name='blog_post_detail'),
 ]
-hello
