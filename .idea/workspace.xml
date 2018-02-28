@@ -2,7 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc2eb419-5d2b-4577-bdb7-e639f0d6f7f0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34945843-2eae-439a-becf-bb95da5d5199.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/34945843-2eae-439a-becf-bb95da5d5199.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34945843-2eae-439a-becf-bb95da5d5199/storage_v2/_src_/schema/main.uQUzAA.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/34945843-2eae-439a-becf-bb95da5d5199/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/midhat.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/midhat.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/pycharm_file_commit.xml" afterPath="$PROJECT_DIR$/.idea/shelf/pycharm_file_commit.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/pycharm_file_commit/shelved.patch" afterPath="$PROJECT_DIR$/.idea/shelf/pycharm_file_commit/shelved.patch" />
+      <change beforePath="$PROJECT_DIR$/.idea/suorganizer.iml" afterPath="$PROJECT_DIR$/.idea/suorganizer.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/blog/__init__.py" afterPath="$PROJECT_DIR$/blog/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" afterPath="$PROJECT_DIR$/blog/apps.py" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base_blog.html" afterPath="$PROJECT_DIR$/blog/templates/blog/base_blog.html" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
+      <change beforePath="$PROJECT_DIR$/blog/tests.py" afterPath="$PROJECT_DIR$/blog/tests.py" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/organizer/__init__.py" afterPath="$PROJECT_DIR$/organizer/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/admin.py" afterPath="$PROJECT_DIR$/organizer/admin.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/apps.py" afterPath="$PROJECT_DIR$/organizer/apps.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/organizer/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/migrations/__init__.py" afterPath="$PROJECT_DIR$/organizer/migrations/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/models.py" afterPath="$PROJECT_DIR$/organizer/models.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/templates/organizer/base_organizer.html" afterPath="$PROJECT_DIR$/organizer/templates/organizer/base_organizer.html" />
+      <change beforePath="$PROJECT_DIR$/organizer/templates/organizer/startup_detail.html" afterPath="$PROJECT_DIR$/organizer/templates/organizer/startup_detail.html" />
+      <change beforePath="$PROJECT_DIR$/organizer/templates/organizer/startup_list.html" afterPath="$PROJECT_DIR$/organizer/templates/organizer/startup_list.html" />
+      <change beforePath="$PROJECT_DIR$/organizer/templates/organizer/tag_detail.html" afterPath="$PROJECT_DIR$/organizer/templates/organizer/tag_detail.html" />
+      <change beforePath="$PROJECT_DIR$/organizer/templates/organizer/tag_list.html" afterPath="$PROJECT_DIR$/organizer/templates/organizer/tag_list.html" />
+      <change beforePath="$PROJECT_DIR$/organizer/tests.py" afterPath="$PROJECT_DIR$/organizer/tests.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/urls.py" afterPath="$PROJECT_DIR$/organizer/urls.py" />
+      <change beforePath="$PROJECT_DIR$/organizer/views.py" afterPath="$PROJECT_DIR$/organizer/views.py" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/suorganizer/__init__.py" afterPath="$PROJECT_DIR$/suorganizer/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer/settings.py" afterPath="$PROJECT_DIR$/suorganizer/settings.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer/urls.py" afterPath="$PROJECT_DIR$/suorganizer/urls.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer/views.py" afterPath="$PROJECT_DIR$/suorganizer/views.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer/wsgi.py" afterPath="$PROJECT_DIR$/suorganizer/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/activate" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/activate" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/activate.csh" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/activate.csh" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/activate.fish" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/activate.fish" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/activate_this.py" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/activate_this.py" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/python3" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/python3" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/bin/python3.5" afterPath="$PROJECT_DIR$/suorganizer_virenv/bin/python3.5" />
+      <change beforePath="$PROJECT_DIR$/suorganizer_virenv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/suorganizer_virenv/pip-selfcheck.json" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,12 +102,12 @@
     <favorites_list name="suorganizer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -145,7 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +258,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519816660843</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pycharm file commit">
+      <created>1519817063311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519817063311</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -379,7 +441,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39695945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2893401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780303" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257576" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
           <folding />
         </state>
       </provider>
