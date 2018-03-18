@@ -30,7 +30,7 @@ class StartupForm(SlugCleanMixin, forms.ModelForm):
         fields = '__all__'
 
 
-class TagForm(SlugCleanMixin, forms.Form):
+class TagForm(SlugCleanMixin, forms.ModelForm):
     class Meta:
         model = Tag
         fields = '__all__'

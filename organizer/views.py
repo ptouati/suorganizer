@@ -1,6 +1,15 @@
-from django.shortcuts import (get_object_or_404, render)
+from django.shortcuts import (get_object_or_404, render, redirect)
+
+from django.views.generic import View
 
 from .models import Startup, Tag
+from .forms import TagForm, StartupForm, NewsLinkForm
+from .utils import ObjectCreateMixin
+
+
+class StartupCreate(ObjectCreateMixin, View):
+    form_class = StartupForm
+    template_name = 'organizer/startup_form.html'
 
 
 def startup_list(request):
@@ -19,3 +28,13 @@ def tag_list(request):
 def tag_detail(request, slug):
     tag = get_object_or_404(Tag, slug__iexact=slug)
     return render(request, 'organizer/tag_detail.html', {'tag': tag})
+
+
+class TagCreate(ObjectCreateMixin, View):
+    form_class = TagForm
+    template_name = 'organizer/tag_form.html'
+
+
+class NewsLinkCreate(ObjectCreateMixin, View):
+    form_class = NewsLinkForm
+    template_name = 'organizer/newslink_form.html'
