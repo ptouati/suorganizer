@@ -6,6 +6,13 @@
         {% endblock %}
 
         <section>
+            <ul>
+                <li>
+                    <a href="{{ tag.get_update_url }}">
+                        Edit Tag
+                    </a>
+                </li>
+            </ul>
             <h3>Startups{{ tag.startup_set.count|pluralize }}</h3>
             <p>
                 Tag is associated with

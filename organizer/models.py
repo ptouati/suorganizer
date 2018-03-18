@@ -17,6 +17,9 @@ class Tag(models.Model):
     def get_absolute_url(self):
         return reverse('organizer_tag_detail', kwargs={'slug': self.slug})
 
+    def get_update_url(self):
+        return reverse('organizer_tag_update', kwargs={'slug': self.slug})
+
 
 class Startup(models.Model):
     name = models.CharField(max_length=31, db_index=True)
@@ -37,6 +40,9 @@ class Startup(models.Model):
     def get_absolute_url(self):
         return reverse('organizer_startup_detail', kwargs={'slug': self.slug})
 
+    def get_update_url(self):
+        return reverse('organizer_startup_update', kwargs={'slug': self.slug})
+
 
 class NewsLink(models.Model):
     title = models.CharField(max_length=63)
@@ -54,3 +60,8 @@ class NewsLink(models.Model):
 
     def get_absolute_url(self):
         return self.startup.get_absolute_url()
+
+    def get_update_url(self):
+        return reverse(
+            'organizer_newslink_update', kwargs={'pk': self.pk}
+        )
