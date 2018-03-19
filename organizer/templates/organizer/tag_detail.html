@@ -12,6 +12,11 @@
                         Edit Tag
                     </a>
                 </li>
+                <li>
+                    <a href="{{ tag.get_delete_url }}">
+                        Delete Tag
+                    </a>
+                </li>
             </ul>
             <h3>Startups{{ tag.startup_set.count|pluralize }}</h3>
             <p>

@@ -23,6 +23,11 @@
                                     Edit Post
                                 </a>
                             </li>
+                            <li>
+                                <a href="{{ post.get_delete_url }}">
+                                    Delete Post
+                                </a>
+                            </li>
                         </ul>
                     </header>
                     <p>{{ post.text|truncatewords:20 }}</p>
