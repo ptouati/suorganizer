@@ -4,12 +4,6 @@ from django.core.exceptions import ValidationError
 from .models import NewsLink, Startup, Tag
 
 
-class NewsLinkForm(forms.ModelForm):
-    class Meta:
-        model = NewsLink
-        fields = '__all__'
-
-
 class SlugCleanMixin:
     """Mixin class for slug cleaning method."""
 
@@ -22,6 +16,12 @@ class SlugCleanMixin:
                 'Slug may not be "create".'
             )
         return new_slug
+
+
+class NewsLinkForm(SlugCleanMixin, forms.ModelForm):
+    class Meta:
+        model = NewsLink
+        fields = '__all__'
 
 
 class StartupForm(SlugCleanMixin, forms.ModelForm):
